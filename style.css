@@ -1,91 +1,94 @@
 body { 
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,0.028124999999999956) 0%, rgba(253,187,45,1) 100%);
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-  }
+  background: #edede9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  margin-top: 20%;
+}
 
-  #todo-container {
-    background: rgb(41, 33, 33);
-    width: 400px;
-    margin: 0 auto;
-    border: 2px solid #0033ff;
-    padding: 20px;
-    color: white;
-    border-radius: 15px;
-  }
-  #todo-container {
-    background: rgb(41, 33, 33);
-    width: 400px;
-    margin: 0 auto;
-    border: 2px solid #0033ff;
-    padding: 20px;
-    color: white;
-    border-radius: 15px;
-  }
-  #header {
-    margin: 5px;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  h1 {
-    margin-bottom: 20px; 
-  }
-  
-  #input-box {
-    width: 200px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 5px;
-    font-size: 20px;
-  }
-  
-  #input-button {
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.4s;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2e60ea;
-  }
-  
-  #input-button:hover {
-    background-color: #9eb7fd; 
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-    text-align:left;
-  
-  }
-  
-  li {
-  border: 1px solid white;
+#todo-container {
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  color: #000;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+  margin: 5px;
+  font-size: 40px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px; 
+}
+
+#input-box {
+  width: 60%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+#input-button {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 20px;
+  border: none;
+  color: #edede9;
+  border-radius: 5px;
+  background-color: #fca311;
+}
+
+#input-button:hover {
+  background-color: rgb(250, 197, 113); 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+li {
+  border: 1px solid #cccccc;
+  background: #fff;
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 10px;
-  margin-top: 10px;
-  }
-  
-  .edit-btn, .delete-btn {
-    float: right;
-    color:crimson;
-    cursor: pointer;
-    margin: 3px 5px;
-    border: none;
-    padding: 3px 5px;
-    background: none;
-  } 
-  
-  .completed {
-    text-decoration: line-through;
-    color: gray;
-    border: 1px solid gray;
-  }
+  margin-top: 10px
+}
 
- 
+.edit-btn, .delete-btn {
+   float: right;
+  color: #00a8e8;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 50px;
+  border: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
+#footer {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #000;
+}
+
+#footer span {
+  color: #ff0000;
+}
