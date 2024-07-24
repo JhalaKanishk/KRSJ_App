@@ -16,6 +16,7 @@ function addTask() {
       </label>
       <span class="edit-btn">Edit</span>
       <span class="delete-btn">Delete</span>
+
       `;
   
     listContainer.appendChild(li);
